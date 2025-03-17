@@ -1,15 +1,29 @@
+import { createRequire } from 'node:module'
+import { dirname, join } from 'node:path'
+import { fileURLToPath, pathToFileURL } from 'node:url'
+
 import { type Mermaid, type MermaidConfig } from 'mermaid'
 import { type BrowserType, chromium, type LaunchOptions, type Page } from 'playwright'
 
 declare const mermaid: Mermaid
 
-const html = import.meta.resolve('../index.html')
+/**
+ * NOTE: `import.meta.resolve` is not available in Webpack/turbopack/swc context.
+ * So we use pure Node.js APIs to resolve the paths.
+ * But `import.meta.url` is still available in the Webpack/turbopack/swc context.
+ */
+
+const require = createRequire(import.meta.url)
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+const html = pathToFileURL(join(__dirname, '../index.html')).href
 const mermaidScript = {
-  url: import.meta.resolve('mermaid/dist/mermaid.js')
+  url: pathToFileURL(require.resolve('mermaid/dist/mermaid.js')).href
 }
 const faStyle = {
-  // We use url, not path. If we use path, the fonts can’t be resolved.
-  url: import.meta.resolve('@fortawesome/fontawesome-free/css/all.css')
+  url: pathToFileURL(require.resolve('@fortawesome/fontawesome-free/css/all.css')).href
 }
 
 export interface CreateMermaidRendererOptions {

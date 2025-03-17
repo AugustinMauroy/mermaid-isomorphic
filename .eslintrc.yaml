@@ -4,3 +4,5 @@ extends:
   # - remcohaszing/typechecking
 rules:
   no-restricted-properties: off
+  no-underscore-dangle: off
+  "@typescript-eslint/naming-convention": off
