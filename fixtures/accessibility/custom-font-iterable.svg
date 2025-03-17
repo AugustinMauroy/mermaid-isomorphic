@@ -1,8 +1,8 @@
 <!--
 {
-  "height": 203,
+  "height": 201.828125,
   "id": "mermaid-0",
-  "width": 640,
+  "width": 640.796875,
   "description": "Bob's Burgers process for making big decisions",
   "title": "Big Decisions"
 }
@@ -12,8 +12,8 @@
   aria-describedby="chart-desc-mermaid-0"
   aria-roledescription="flowchart-v2"
   role="graphics-document document"
-  viewBox="0 0 640 203"
-  style="max-width: 640px"
+  viewBox="0 0 640.796875 201.828125"
+  style="max-width: 640.796875px"
   class="flowchart"
   xmlns="http://www.w3.org/2000/svg"
   width="100%"
@@ -313,14 +313,14 @@
           style=""
           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
           id="L_A_B_0"
-          d="M225,101.5L229.167,101.5C233.333,101.5,241.667,101.5,247.958,101.542C254.25,101.583,258.5,101.667,262.083,101.737C265.667,101.807,268.584,101.864,270.042,101.893L271.501,101.922"
+          d="M226.688,100.914L230.854,100.914C235.021,100.914,243.354,100.914,249.646,100.956C255.938,100.997,260.188,101.081,263.771,101.151C267.354,101.221,270.271,101.278,271.73,101.307L273.188,101.336"
         />
         <path
           marker-end="url(#mermaid-0_flowchart-v2-pointEnd)"
           style=""
           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
           id="L_B_D_1"
-          d="M462.5,102L466.583,101.917C470.667,101.833,478.833,101.667,485,101.583C491.167,101.5,495.333,101.5,498.833,101.5C502.333,101.5,505.167,101.5,506.583,101.5L508,101.5"
+          d="M463.016,101.414L467.099,101.331C471.182,101.247,479.349,101.081,485.516,100.997C491.682,100.914,495.849,100.914,499.349,100.914C502.849,100.914,505.682,100.914,507.099,100.914L508.516,100.914"
         />
       </g>
       <g class="edgeLabels">
@@ -362,11 +362,18 @@
         </g>
       </g>
       <g class="nodes">
-        <g transform="translate(116.5, 101.5)" id="flowchart-A-0" class="node default">
-          <rect height="54" width="217" y="-27" x="-108.5" style="" class="basic label-container" />
-          <g transform="translate(-78.5, -12)" style="" class="label">
+        <g transform="translate(117.34375, 100.9140625)" id="flowchart-A-0" class="node default">
+          <rect
+            height="54"
+            width="218.6875"
+            y="-27"
+            x="-109.34375"
+            style=""
+            class="basic label-container"
+          />
+          <g transform="translate(-79.34375, -12)" style="" class="label">
             <rect />
-            <foreignObject height="24" width="157"
+            <foreignObject height="24" width="158.6875"
               ><div
                 style="
                   display: table-cell;
@@ -382,15 +389,15 @@
             >
           </g>
         </g>
-        <g transform="translate(368.5, 101.5)" id="flowchart-B-1" class="node default">
+        <g transform="translate(369.6015625, 100.9140625)" id="flowchart-B-1" class="node default">
           <polygon
-            transform="translate(-93.5,93.5)"
+            transform="translate(-92.9140625,92.9140625)"
             class="label-container"
-            points="93.5,0 187,-93.5 93.5,-187 0,-93.5"
+            points="92.9140625,0 185.828125,-92.9140625 92.9140625,-185.828125 0,-92.9140625"
           />
-          <g transform="translate(-66.5, -12)" style="" class="label">
+          <g transform="translate(-65.9140625, -12)" style="" class="label">
             <rect />
-            <foreignObject height="24" width="133"
+            <foreignObject height="24" width="131.828125"
               ><div
                 style="
                   display: table-cell;
@@ -406,11 +413,18 @@
             >
           </g>
         </g>
-        <g transform="translate(572, 101.5)" id="flowchart-D-3" class="node default">
-          <rect height="54" width="120" y="-27" x="-60" style="" class="basic label-container" />
-          <g transform="translate(-30, -12)" style="" class="label">
+        <g transform="translate(572.65625, 100.9140625)" id="flowchart-D-3" class="node default">
+          <rect
+            height="54"
+            width="120.28125"
+            y="-27"
+            x="-60.140625"
+            style=""
+            class="basic label-container"
+          />
+          <g transform="translate(-30.140625, -12)" style="" class="label">
             <rect />
-            <foreignObject height="24" width="60"
+            <foreignObject height="24" width="60.28125"
               ><div
                 style="
                   display: table-cell;

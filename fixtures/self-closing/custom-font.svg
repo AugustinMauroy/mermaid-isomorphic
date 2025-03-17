@@ -2,14 +2,14 @@
 {
   "height": 112,
   "id": "mermaid-0",
-  "width": 204
+  "width": 204.4375
 }
 -->
 <svg
   aria-roledescription="flowchart-v2"
   role="graphics-document document"
-  viewBox="0 0 204 112"
-  style="max-width: 204px"
+  viewBox="0 0 204.4375 112"
+  style="max-width: 204.4375px"
   class="flowchart"
   xmlns="http://www.w3.org/2000/svg"
   width="100%"
@@ -307,7 +307,7 @@
           style=""
           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
           id="L_A_B_0"
-          d="M77,56L81.167,56C85.333,56,93.667,56,99.917,56C106.167,56,110.333,56,113.833,56C117.333,56,120.167,56,121.583,56L123,56"
+          d="M77.219,56L81.385,56C85.552,56,93.885,56,100.135,56C106.385,56,110.552,56,114.052,56C117.552,56,120.385,56,121.802,56L123.219,56"
         />
       </g>
       <g class="edgeLabels">
@@ -331,11 +331,18 @@
         </g>
       </g>
       <g class="nodes">
-        <g transform="translate(42.5, 56)" id="flowchart-A-0" class="node default">
-          <rect height="96" width="69" y="-48" x="-34.5" style="" class="basic label-container" />
-          <g transform="translate(-4.5, -33)" style="" class="label">
+        <g transform="translate(42.609375, 56)" id="flowchart-A-0" class="node default">
+          <rect
+            height="96"
+            width="69.21875"
+            y="-48"
+            x="-34.609375"
+            style=""
+            class="basic label-container"
+          />
+          <g transform="translate(-4.609375, -33)" style="" class="label">
             <rect />
-            <foreignObject height="66" width="9"
+            <foreignObject height="66" width="9.21875"
               ><div
                 style="
                   display: table-cell;
@@ -355,11 +362,18 @@
             ></foreignObject>
           </g>
         </g>
-        <g transform="translate(161.5, 56)" id="flowchart-B-1" class="node default">
-          <rect height="96" width="69" y="-48" x="-34.5" style="" class="basic label-container" />
-          <g transform="translate(-4.5, -33)" style="" class="label">
+        <g transform="translate(161.828125, 56)" id="flowchart-B-1" class="node default">
+          <rect
+            height="96"
+            width="69.21875"
+            y="-48"
+            x="-34.609375"
+            style=""
+            class="basic label-container"
+          />
+          <g transform="translate(-4.609375, -33)" style="" class="label">
             <rect />
-            <foreignObject height="66" width="9"
+            <foreignObject height="66" width="9.21875"
               ><div
                 style="
                   display: table-cell;

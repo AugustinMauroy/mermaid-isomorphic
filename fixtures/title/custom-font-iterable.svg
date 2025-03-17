@@ -2,14 +2,14 @@
 {
   "height": 120,
   "id": "mermaid-0",
-  "width": 89
+  "width": 89.296875
 }
 -->
 <svg
   aria-roledescription="flowchart-v2"
   role="graphics-document document"
-  viewBox="0 -50 89 120"
-  style="max-width: 89px"
+  viewBox="0 -50 89.296875 120"
+  style="max-width: 89.296875px"
   class="flowchart"
   xmlns="http://www.w3.org/2000/svg"
   width="100%"
@@ -304,11 +304,18 @@
       <g class="edgePaths" />
       <g class="edgeLabels" />
       <g class="nodes">
-        <g transform="translate(44.5, 35)" id="flowchart-id-0" class="node default">
-          <rect height="54" width="73" y="-27" x="-36.5" style="" class="basic label-container" />
-          <g transform="translate(-6.5, -12)" style="" class="label">
+        <g transform="translate(44.6484375, 35)" id="flowchart-id-0" class="node default">
+          <rect
+            height="54"
+            width="73.296875"
+            y="-27"
+            x="-36.6484375"
+            style=""
+            class="basic label-container"
+          />
+          <g transform="translate(-6.6484375, -12)" style="" class="label">
             <rect />
-            <foreignObject height="24" width="13"
+            <foreignObject height="24" width="13.296875"
               ><div
                 style="
                   display: table-cell;
@@ -327,5 +334,5 @@
       </g>
     </g>
   </g>
-  <text class="flowchartTitleText" y="-25" x="44.5">Node</text>
+  <text class="flowchartTitleText" y="-25" x="44.6484375">Node</text>
 </svg>
